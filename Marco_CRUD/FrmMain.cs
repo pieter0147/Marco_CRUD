@@ -213,6 +213,12 @@ namespace Marco_CRUD
             this.Hide();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmPengguna frmPengguna = new FrmPengguna();
+            frmPengguna.Show();
+        }
+
         private void btnSave_Click(object sender, EventArgs e)
         {
              try
